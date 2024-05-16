@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "HeyWowExtraBold";
+  src: url("../fonts/HeyWowExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsNormal";
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeyWowBold";
+  src: url("../fonts/HeyWowBold.ttf") format("truetype");
+}
+
+@media only screen and (min-width: 768px) {
+  .blogPageLayout{
+    display: flex;
+    flex-direction: column;
+  }
+  .heroBannerClass{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .pageHeroTitle{
+    font-family: "HeyWowExtraBold";
+    font-size: 72px;
+    margin-top: 20px;
+    margin-left: 90px;
+  }
+  .redDot{
+    color: #C03939;
+  }
+  .heroTextUnder{
+    font-family: "PoppinsNormal", sans-serif;
+    color: #565667;
+    font-size: 24px;
+    margin-left: 500px;
+    justify-content: flex-end;
+  }
+  .buttonFilters{
+    margin-top: 100px;
+    display: flex;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    align-items: center;
+    max-width: 1120px;
+    margin-left: 200px;
+  }
+  .filterButton {
+    height: 40px;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 48px;
+    border: 2px solid #cbd3d6;
+    font: 900 16px sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+    color: var(--color-black);
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-right: 8px;
+  }
+  
+  .filterButton.selected {
+    background-color: #C03939;
+    color: white;
+  }
+  .blogPost{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+  }
+  .imgCover{
+    height: 654px;
+    width: 680px;
+    margin-left: 100px;
+  }
+  .blogPicture{
+    height: 450px;
+    width: 650px;
+    border-radius: 48px;
+  }
+  .blogType{
+    height: 20px;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 48px;
+    border: 2px solid #cbd3d6;
+    font: 900 16px sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+    color: var(--color-black);
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-right: 8px;
+  }
+  .blogGenre{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+    
+  }
+  .readTime{
+    font-family: "PoppinsNormal";
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .blogDesc{
+    width: 600px;
+  }
+  .blogTitle{
+    font: 900 42px "HeyWowExtraBold";
+  }
+  .blogShortDesc{
+    font-family:"PoppinsNormal";
+    font-size: 20px;
+    color: #000000;
+  }
+  .blogNewsDesc{
+    font-family:"PoppinsNormal";
+    font-size: 18px;
+    color: #000000;
+  }
+  .blogAuthor{
+    margin-top: 12px;
+    font-family:"PoppinsNormal";
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    
+  }
+  .blogCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .blogPic{
+    width: 380px;
+    border-radius: 48px;
+  }
+  .blogSmallTitle{
+    font: 900 26px "HeyWowExtraBold"
+  }
+  .blogSmallTitle:hover{
+    text-decoration: none;
+  }
+  .blogNews{
+    max-width: 1360px;
+    background-color:#f4f5f6 ;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    border-radius: 24px;
+  }
+  .heroBannerInsights {
+    color: white;
+    font: 900 180px "HeyWowExtraBold";
+    position: relative;
+    z-index: 0; 
+  }
+  
+  .smallerBannerInsights {
+    font: 900 66px "HeyWowExtraBold";
+    color: #000000;
+    position: absolute;
+    z-index: 1;
+    margin-top: -140px;
+    margin-left: 20px;
+  }
+  .blogNewsCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+    gap: 15px;
+    margin-top: 70px;
+    overflow-x: hidden;
+  }
+  .newsCard{
+    width: 453px;
+    height: fit-content;
+  }
+  .newsPic{
+    width: 370px;
+    border-radius: 24px;
+  }
+  .btnFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .btnMore{
+    border-width: 0px;
+    background-color: #f4f5f6;
+    cursor: pointer;
+  }
+  .btnPicture{
+    width: 122px;
+    height: 56px;
+    margin-left: 1200px;
+  }
+  .blogDigitalTransformation{
+    max-width: 1360px;
+    background-color: white ;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border-radius: 24px;
+  }
+  .heroBannerDT {
+    color: #DDDDDD;
+    font: 900 180px "HeyWowExtraBold";
+    position: relative;
+    z-index: 0; 
+    text-wrap: nowrap;
+    overflow-x: hidden;
+  }
+  
+  .heroBannersmallerDT {
+    font: 900 66px "HeyWowExtraBold";
+    color: #000000;
+    position: absolute;
+    z-index: 1;
+    margin-top: -150px;
+    margin-left: 20px;
+  }
+  .btnFlexWhite{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .btnMoreWhite{
+    border-width: 0px;
+    background-color: white;
+    cursor: pointer;
+  }
+}

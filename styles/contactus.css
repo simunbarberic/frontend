@@ -1,0 +1,343 @@
+@font-face {
+  font-family: "HeyWowBold";
+  src: url("../fonts/HeyWowBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeyWowExtraBold";
+  src: url("../fonts/HeyWowExtraBold.ttf") format("truetype");
+}
+.pictureButton{
+  height: 56px;
+  width: 125px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+*{
+  overflow-x: hidden;
+  
+}
+.buttonSubmit{
+  border-radius: 32px;
+  border-color: white;
+  background-color: white;
+  border-width: 0px;
+  margin-top: 50px;
+}
+@media only screen and (min-width: 769px){
+  .inputContainer {
+    height: 75px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .heroBanner {
+    font-size: 112px;
+    font-family: "HeyWowExtraBold";
+    color: #dddddd;
+    position: relative;
+  }
+  
+  .smallerHeroBanner {
+    color: #202028;
+    font-size: 56px;
+    font-family: "HeyWowExtraBold";
+    font-weight: 1000;
+    position: relative;
+    z-index: -1;
+    margin-top: -110px;
+    margin-left: 150px;
+    
+  }
+  .mainDiv {
+    position: relative;
+    top: 50%;
+    left: 29%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .inputFields {
+    border: 0;
+    border-bottom: dashed;
+    border-color: #dddddd;
+    width: 349px;
+    height: 26px;
+    top: 446px;
+    left: 301px;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-right: 20px;
+  }
+::placeholder{
+  color: #dddddd;
+}
+  .inputFieldsRight {
+    border: 0;
+    border-bottom: dashed;
+    border-color: #dddddd;
+    width: 349px;
+    height: 26px;
+    top: 446px;
+    left: 737px;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  
+  .selections {
+    border: 0;
+    border-bottom: dashed;
+    border-color: #dddddd;
+    width: 725px;
+    height: 26px;
+    top: 739px;
+    left: 301px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+  }
+  
+  .buttonLayout {
+    display: grid;
+  
+    grid-template-columns: 200px 200px 200px;
+    margin: 24px;
+    margin-right: 15px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+  
+  .buttons {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 36px;
+    top: 876px;
+    left: 301px;
+    padding: 2px 24px 2px 24px;
+    gap: 10px;
+    border-radius: 48px;
+    border-width: 1px;
+    font-family: "HeyWowBold";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    border-color: #dddddd;
+    margin-left: 50px;
+    justify-content: center;
+    overflow-y: hidden;
+  }
+  
+  .selected {
+    background-color: #c03939;
+    color: white;
+    border: 1px 1px 1px 1px;
+    border-color: #dddddd;
+    font-family: "HeyWowBold";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  
+  .submitButton {
+    height: 50px;
+    width: 120px;
+    background-color: #c03939;
+    border-radius: 48px;
+    color: white;
+    font-family: HeyWow, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 20px;
+    overflow-y: hidden;
+  }
+  
+  .labelInput {
+    display: "block";
+    width: "400px";
+    height: "100px";
+    border: "1px solid #ccc";
+    border-radius: "5px";
+    text-align: "center";
+    line-height: "100px";
+    cursor: "pointer";
+    
+  }
+  .attachmentsPicture{
+    height: 30px;
+    width: fit-content;
+    padding: 32px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .inputContainer {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .banners{
+    height: fit-content;
+  }
+  .heroBanner {
+    font-size: 32px;
+    font-family: "HeyWowExtraBold";
+    color: #dddddd;
+    position: relative;
+  }
+  
+  .smallerHeroBanner {
+    font-size: 21px;
+    font-family: "HeyWowExtraBold";
+    color: #202028;
+    position: relative;
+    z-index: -1;
+    visibility: visible;
+    top: 40%;
+    left: 10%;
+    white-space: nowrap;
+    margin-top: -30px;
+  }
+  .mainDiv {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    width: 100%;
+    height: 1000px;
+  }
+  
+  .inputFields {
+    border: 0;
+    border-bottom: dashed;
+    border-color: #dddddd;
+    color: #dddddd;
+    width: 100%;
+    height: 26px;
+    top: 40%;
+    left: 10%;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-right: 20px;
+  }
+  
+  .inputFieldsRight {
+    border: 0;
+    border-bottom: dashed;
+    border-color: #dddddd;
+    width: 100%;
+    height: 30px;
+    top: 40%;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .selections {
+    border: 0;
+    border-bottom: dashed;
+    border-color: #dddddd;
+    width: 100%;
+    height: 26px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: black;
+    overflow-y: hidden;
+    margin-top: 10px;
+  }
+  
+  .buttonLayout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Promijenjeno */
+    margin: 24px;
+    margin-right: 15px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+  }
+  
+  .buttons {
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    height: 36px;
+    border-radius: 48px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    font-family: "HeyWowBold";
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    border-color: #dddddd;
+    justify-content: center;
+    overflow-y: hidden;
+    
+  }
+  
+  .selected {
+    background-color: #c03939;
+    color: black;
+    border: 2px solid #dddddd;
+    font-family: "HeyWowBold";
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  
+
+  
+  .labelInput {
+    display: "block";
+    width: "200px";
+    height: "100px";
+    border: "1px solid #ccc";
+    border-radius: "5px";
+    text-align: "center";
+    line-height: "100px";
+    cursor: "pointer";
+  }
+  .attachmentsPicture{
+    height: 30px;
+    width: fit-content;
+    padding: 32px;
+  }
+}

@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "HeyWowBold";
+  src: url("../fonts/HeyWowBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeyWowExtraBold";
+  src: url("../fonts/HeyWowExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeyWowHeavy";
+  src: url("../fonts/HeyWowHeavy.ttf") format("truetype");
+}
+a:link { 
+  text-decoration: none; 
+} 
+a:hover{
+  text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 769px){
+  .footer-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: 350px;
+    width: 100%;
+    color: #848490;
+    background-color: #202028;
+    margin-top: 40px;
+    text-align: center;
+    font-family: var(--font-poppins), sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    overflow-x: hidden;
+  }
+  
+
+  
+  .footerItem {
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 100%;
+    font-family: "HeyWowExtraBold";
+    font-size: 15px;
+  }
+  
+  .text-style {
+    font-family: "HeyWowHeavy", sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    overflow-y: hidden;
+  }
+  
+  .text-about {
+    color: #ccd3d7;
+    font-size: 14px;
+    font-family: var(--font-poppins);
+  }
+  .pageSocials{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .footer-contents {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: fit-content;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #848490;
+    background-color: #202028;
+    font-family: var(--font-poppins), sans-serif;
+  }
+  .footerItem {
+    margin-top: 5px;
+    align-items: center;
+    left: 10px;
+    width: 100%;
+    height: fit-content;
+    font-family: "HeyWowExtraBold";
+    font-size: 15px;
+  }
+  .text-style {
+    font-family: "HeyWowHeavy", sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+    overflow-y: hidden;
+  }
+  
+  .text-about {
+    color: #ccd3d7;
+    font-size: 14px;
+    font-family: "HeyWowExtraBold";
+  }
+
+}
