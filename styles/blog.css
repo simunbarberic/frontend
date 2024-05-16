@@ -246,3 +246,212 @@
     cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .blogPageLayout {
+    display: flex;
+    flex-direction: column;
+  }
+  .heroBannerClass {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .pageHeroTitle {
+    font-family: "HeyWowExtraBold";
+    font-size: 48px; 
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .smallerBannerInsights {
+    font-size: 24px; 
+    margin-left: 10px;
+    margin-top: -100px;
+    color: white;
+  }
+  .heroTextUnder {
+    font-family: "PoppinsNormal", sans-serif;
+    color: #565667;
+    font-size: 18px; /* Promijenjena veličina fonta */
+    margin-left: 20px; /* Promijenjena margina */
+  }
+  .buttonFilters{
+    margin-top: 100px;
+    display: flex;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    align-items: center;
+    max-width: 1120px;
+    margin-left: 10px;
+    margin-bottom: -150px;
+  }
+  .filterButton {
+    height: 40px;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 48px;
+    border: 2px solid #cbd3d6;
+    font: 900 16px sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+    color: #202026;
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-wrap: nowrap;
+    justify-content: center;
+    margin-right: 8px;
+  }
+  
+  .filterButton.selected {
+    background-color: #C03939;
+    color: white;
+  }
+  .blogPost {
+    margin-top: 20px; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .imgCover{
+    height: 654px;
+    width: 680px;
+    margin-left: 10px;
+  }
+  .blogPicture{
+    margin-top: 200px;
+    height: 450px;
+    width: 650px;
+    border-radius: 48px;
+    margin-bottom: 200px;
+  }
+  .blogType{
+    height: 20px;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 48px;
+    border: 2px solid #cbd3d6;
+    font: 900 16px sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+    color: var(--color-black);
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-right: 8px;
+  }
+  .blogGenre{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+    
+  }
+  .readTime{
+    font-family: "PoppinsNormal";
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .blogDesc{
+    width: 600px;
+  }
+  .blogTitle{
+    font: 900 42px "HeyWowExtraBold";
+  }
+  .blogShortDesc{
+    font-family:"PoppinsNormal";
+    font-size: 20px;
+    color: #000000;
+  }
+  .blogNewsDesc{
+    font-family:"PoppinsNormal";
+    font-size: 18px;
+    color: #000000;
+  }
+  .blogAuthor{
+    margin-top: 12px;
+    font-family:"PoppinsNormal";
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  .blogCards {
+    margin-left: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 50px; 
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;  
+  }
+  .blogPic {
+    width: 100%; 
+    border-radius: 24px;
+  }
+  .blogSmallTitle {
+    font-size: 24px; 
+  }
+  .blogNews {
+    max-width: 100%; 
+    margin-left: 0; 
+    margin-bottom: 50px;
+  }
+  .heroBannerInsights{
+    font-size: 48px; 
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 50px;
+  }
+  .heroBannerDT {
+    font-size: 48px; 
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+  }
+  .heroBannersmallerDT {
+    font-size: 24px; 
+    margin-top: -100px; 
+    margin-left: 20px; 
+    position: absolute;
+    z-index: 1;
+    color: white;
+  }
+  .blogNewsCards {
+    margin-left: 10px; 
+    margin-top: 20px; 
+    gap: 10px; 
+  }
+  .newsCard {
+    width: 100%; 
+  }
+  .newsPic {
+    width: 100%; 
+    border-radius: 24px; 
+  }
+  .btnFlex,
+  .btnFlexWhite {
+    justify-content: center; 
+  }
+  .btnMore,
+  .btnMoreWhite {
+    margin-top: 20px; 
+    margin-right: 20px; 
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .btnPicture {
+    width: 100px;
+    height: 40px;
+    margin-left: 0;
+  }
+  .blogDigitalTransformation {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+}
